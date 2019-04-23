@@ -1,0 +1,13 @@
+/* ================================
+        Footer css
+================================ */
+#footer{
+  background-color: lightcoral;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". footer .";
+
+  >div{
+    grid-area: footer;
+  }
+}

@@ -1,0 +1,13 @@
+/* ================================
+        Header css
+================================ */
+#header{
+  background-color: midnightblue;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". header .";
+
+  >div{
+    grid-area: header;
+  }
+}

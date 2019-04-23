@@ -1,0 +1,13 @@
+/* =============
+    Hero
+============= */
+#hero{
+  background-color: slateblue;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". hero .";
+
+  >div{
+    grid-area: hero;
+  }
+}
