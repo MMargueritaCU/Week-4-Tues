@@ -319,6 +319,19 @@ template {
 /* ================================
         Base css
 ================================ */
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style: none; }
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". content ."; }
+  .content-grid .content-grid-item {
+    grid-area: content; }
+
 /* ================================
         Typography css
 ================================ */
@@ -361,6 +374,8 @@ template {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". hero ."; }
+  #hero img {
+    width: 100%; }
   #hero > div {
     grid-area: hero; }
 
@@ -383,6 +398,8 @@ template {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". mobile ."; }
+  #mobile img {
+    width: 100%; }
   #mobile > div {
     grid-area: mobile; }
 
