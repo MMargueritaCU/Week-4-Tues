@@ -2,7 +2,7 @@
     Mobile
 ============= */
 #mobile{
-  background-color: darkslateblue;
+  background-color: #F5F5F5;
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". mobile .";
@@ -13,5 +13,16 @@
 
   >div{
     grid-area: mobile;
+  }
+  h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  p{
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
   }
 }
